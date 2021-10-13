@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <!-- migre el index que tradujo sass -->
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+
+        <nav class="navbar navbar-expand-lg navegacion navbar-light">
+            <div class="container-fluid menu">
+                <a class="navbar-brand" href="../index.html"><img class="principal" src="../media/carrusel/logo .png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li>
+                          <a class="dropdown-item" href="../html/garantia.html">garantia</a>
+                      </li>
+                      <li><a class="dropdown-item" href="../html/seguimiento.html">seguimiento</a></li>
+                      <li><a class="dropdown-item" href="../html/terminos-y-condiciones.html">terminos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/quienes-somos.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
+    </header>
+    
+    <form class="row g-3 needs-validation formulario__contacto" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
+    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Email</label>
+    <div class="input-group has-validation">
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a Email valid.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">Asunto</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">buscar</option>
+      <option>envios</option>
+      <option>reclamos</option>
+      <option>sugerencias</option>
+      <option>otros</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  <div class="col-md-6">
+    <!-- <textarea id="Consultas" rows="20" cols="40" placeholder="Escribe aqui su motivo de contacto"></textarea> -->
+    <label for="validationCustom03"  class="form-label textoarea__mensaje">Mensaje</label>
+    <textarea class="form-control" rows="5" cols="40" placeholder="Escribe aqui su motivo de contacto"></textarea>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  <div class="col-12">
+  </div>
+  <section class="section__button-send">
+    <button class="btn btn-primary button__enviar" type="submit">Enviar</button>
+  </section>
+</form>
+<footer>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>

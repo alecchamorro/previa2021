@@ -1,0 +1,185 @@
+/* import */
+/* globals */
+/* Reseto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* variable */
+/* partials*/
+.img-spotify {
+  width: 25px;
+  height: 25px; }
+
+.spotify {
+  display: flex;
+  justify-content: center; }
+
+.previa2021 {
+  width: 100%;
+  height: 45px; }
+
+.div__h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+  width: 100%;
+  align-items: center; }
+
+.sm-button {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+  line-height: 2.1em;
+  border: 2px solid transparent;
+  margin: auto 5px; }
+
+.sm-button:hover {
+  transform: rotate(360deg);
+  background: #fff; }
+
+.sm-button.instagram:hover, .sm-button.twitter:hover {
+  border: 2px solid;
+  background: white;
+  color: #000000;
+  border-color: #f8f8f8; }
+
+.sm-button.instagram {
+  background: #000000; }
+
+.sm-button.instagram:hover {
+  color: #000000;
+  border-color: #ffffff; }
+
+.sm-button.twitter {
+  background: #000000; }
+
+.sm-button.twitter:hover {
+  color: #000000;
+  border-color: #ffffff; }
+
+.footer__text {
+  color: #f2f2f2; }
+
+.copr {
+  margin-bottom: 10px;
+  color: grey;
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  color: #d30172; }
+
+.copr a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-style: 0.9rem bold;
+  color: white; }
+
+/* pages */
+.div__playlist {
+  width: 100%;
+  height: 480px; }
+
+.div__item {
+  display: flex;
+  justify-content: center;
+  margin: 10px; }
+
+.div__texto {
+  text-align: center; }
+
+body {
+  background-color: black; }
+
+.navbar-brand {
+  margin-right: 30%; }
+
+.nav-item {
+  font-size: 16px;
+  margin: 0 12px 0 12px;
+  text-align: center; }
+
+/* grid */
+.top-moment {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.artistas-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5em;
+  grid-template-areas: "ferpa biza alex";
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; }
+
+.article__artistas {
+  width: 300px;
+  height: 290px;
+  display: flex;
+  align-items: center; }
+
+.alex {
+  width: 100%; }
+
+.alex:hover {
+  transform: scale(1.1);
+  transition: all 2s; }
+
+.biza {
+  width: 100%; }
+
+.biza:hover {
+  transform: scale(1.1);
+  transition: all 2s; }
+
+.ferpa {
+  width: 100%; }
+
+.ferpa:hover {
+  transform: scale(1.1);
+  transition: all 2s; }
+
+.iframe-artista {
+  display: flex;
+  justify-content: center; }
+
+.div__contenedor-texto {
+  display: flex;
+  align-items: center; }
+
+.div__item {
+  margin-bottom: 20px; }
+
+.formulario__contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.div__enviar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+div .col-md-6 {
+  width: 300px; }
+  div .col-md-6 .textoarea__mensaje {
+    margin-top: 15px; }
+
+.section__button-send {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* media y keyframe */
+/* RESPONSIVE */

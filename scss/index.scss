@@ -1,0 +1,30 @@
+/* import */
+
+/* globals */
+@import"_globals.scss";
+@import"partials/_mixins.scss";
+
+/* variable */
+@import"partials/_variables.scss";
+
+
+/* partials*/
+@import"partials/_header";
+@import"partials/_main.scss";
+@import"partials/_section.scss";
+@import"partials/_aside.scss";
+@import"partials/_footer.scss";
+
+
+/* pages */
+@import"pages/_index";
+@import"pages/_contacto.scss";
+@import"pages/_top-moment.scss";
+@import"pages/_seguimiento.scss";
+@import"pages/_terminos-y-condiciones";
+
+/* media y keyframe */
+@import"partials/_media.scss";
+@import"./partials/_keyframe.scss";
+
+
