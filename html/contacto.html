@@ -1,104 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css"/>
-    <!-- migre el index que tradujo sass -->
     <link rel="stylesheet" href="../css/index.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header class="container">
 
-        <nav class="navbar navbar-expand-lg navegacion navbar-light">
-            <div class="container-fluid menu">
-                <a class="navbar-brand" href="../index.html"><img class="principal" src="../media/carrusel/logo .png"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      servicios
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li>
-                          <a class="dropdown-item" href="../html/garantia.html">garantia</a>
-                      </li>
-                      <li><a class="dropdown-item" href="../html/seguimiento.html">seguimiento</a></li>
-                      <li><a class="dropdown-item" href="../html/terminos-y-condiciones.html">terminos</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../html/quienes-somos.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../html/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>  
-    </header>
-    
-    <form class="row g-3 needs-validation formulario__contacto" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Email</label>
-    <div class="input-group has-validation">
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-      <div class="invalid-feedback">
-        Please choose a Email valid.
+<body class="body__contacto">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" id="nav-container">
+          <a class="navbar-brand icon-a" href="../index.html"><img class="previa2021" src="../media/iconos/previa2021-icon.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a id="team-navBar"class="nav-link active" aria-current="page" href="playlist.html">Playlist</a>
+              </li>
+              <li class="nav-item">
+                <a id="services-navBar" class="nav-link active" href="dj.html">Dj</a>
+              </li>
+              <li class="nav-item">
+                <a id="store-navBar" class="nav-link active" href="reproducciones.html">Reproducciones</a>
+              </li>
+              <li class="nav-item">
+                <a id="reservation-navBar" class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
+              <li class="spotify">
+                <a href="https://open.spotify.com/playlist/6yhrF4H4UUKeg46Pbtcaig?si=609397ef04964a8a"><img class="img-spotify" src="../media/iconos/Spotify_Icon_CMYK_White.png" alt="redireccion a spotify"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+      </header>
+      <div class="container__form">  
+        <form id="contact" action="" method="post">
+          <h3>Contacto</h3>
+          <h4>Dejanos tu mensaje, en breve seras contactado</h4>
+          <fieldset>
+            <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Celular (optional)" type="tel" tabindex="3">
+          </fieldset>
+          <fieldset>
+            <input placeholder="Motivo de contacto" type="text" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Mensaje...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+          </fieldset>
+        </form>
       </div>
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">Asunto</label>
-    <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">buscar</option>
-      <option>envios</option>
-      <option>reclamos</option>
-      <option>sugerencias</option>
-      <option>otros</option>
-    </select>
-    <div class="invalid-feedback">
-      Please select a valid state.
-    </div>
-  <div class="col-md-6">
-    <!-- <textarea id="Consultas" rows="20" cols="40" placeholder="Escribe aqui su motivo de contacto"></textarea> -->
-    <label for="validationCustom03"  class="form-label textoarea__mensaje">Mensaje</label>
-    <textarea class="form-control" rows="5" cols="40" placeholder="Escribe aqui su motivo de contacto"></textarea>
-    </div>
-  </div>
-
-  </div>
-  </div>
-  <div class="col-12">
-  </div>
-  <section class="section__button-send">
-    <button class="btn btn-primary button__enviar" type="submit">Enviar</button>
-  </section>
-</form>
+    
+    </body>
+    </html>
+    
 <footer>
+  <footer class="footer">		
+    <div class="footer__container">
+            <p class="footer__spotify"><iframe class="iframe-artista" src="https://open.spotify.com/follow/1/?uri=spotify:user:jonypasqualino?si=be263f20531f4e9e&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></p>
+            </p>
+            <a class="sm-button twitter" href="https://mobile.twitter.com/passqua_"><i class="fa fa-twitter"></i></a>
+            <a class="sm-button instagram" href="https://instagram.com/passqua?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+            <div class="copr text-center">© 2021 Copyright:
+              <a href="https://www.instagram.com/alecchamorro/?hl=es">Alecchamorro</a>
+            </div>
+  </footer>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
