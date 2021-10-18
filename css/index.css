@@ -278,7 +278,8 @@ fieldset {
   height: auto; }
 
 .div__artistas {
-  width: 100%; }
+  width: 100%;
+  padding: 8px; }
 
 .div__artistas:hover {
   transform: scale(1.1);
