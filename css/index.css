@@ -259,6 +259,7 @@ fieldset {
   color: #888; }
 
 .h1__dj {
+  margin-bottom: 2rem;
   text-align: center;
   margin-top: 2rem; }
 
@@ -284,8 +285,42 @@ fieldset {
   transition: all 2s; }
 
 .h2__dj {
+  font-size: 1rem;
   text-align: center;
-  margin-top: 2rem; }
+  margin-top: 3rem;
+  color: rgba(255, 255, 255, 0.308); }
+
+.h1__playlist {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.main__div-contenedor {
+  width: max-content 1920px;
+  height: auto; }
+
+.div__item-img {
+  width: 100%; }
+
+.div__playlist-img {
+  width: max-content 1920px;
+  height: auto; }
+
+.img__spotify-playlist {
+  width: 100%; }
+
+.div__texto-playlist {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.308);
+  padding: 20px; }
+
+div p a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #bd3e4f98; }
+
+div p a:hover {
+  color: white; }
 
 /* media y keyframe */
 /* RESPONSIVE */

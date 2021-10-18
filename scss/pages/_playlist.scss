@@ -1,0 +1,38 @@
+.h1__playlist{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main__div-contenedor{
+    width:max-content 1920px;
+    height: auto;
+}
+
+.div__item-img{
+    width: 100%;
+}
+.div__playlist-img{
+    width:max-content 1920px;
+    height: auto;
+}
+
+.img__spotify-playlist{
+    width: 100%;
+}
+
+.div__texto-playlist{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.308);
+    padding: 20px;
+}
+
+div p a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #bd3e4f98;
+}
+
+div p a:hover{
+    color: white;
+}
