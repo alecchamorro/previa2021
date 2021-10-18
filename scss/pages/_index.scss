@@ -51,30 +51,14 @@ body{
     display: flex;
     align-items: center;
   }
-  .alex{
+  .img__top-artistas{
     width: 100%;}
     
-    .alex:hover{          
+    .img__top-artistas:hover{          
       transform: scale(1.1);
       transition: all 2s;
     }
-  
-  .biza{
-    width: 100%;
-  }
-  .biza:hover{          
-    transform: scale(1.1);
-    transition: all 2s;}
 
-  .ferpa{
-    width: 100%;
-  }
-  .ferpa:hover{          
-    transform: scale(1.1);
-    transition: all 2s;}
-
-
-  
   .iframe-artista{
     display: flex;
     justify-content: center;
@@ -84,6 +68,3 @@ body{
     display: flex;
     align-items: center;
   }
-.div__item{
-  margin-bottom: 20px;
-}
