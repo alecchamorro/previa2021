@@ -323,5 +323,25 @@ div p a {
 div p a:hover {
   color: white; }
 
+.body__novedades {
+  background-image: url(../media/portfolio/auriculares.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center; }
+
+.div__div-cont {
+  margin: 48px 0px 48px 0px; }
+
+.div__iframe {
+  width: 400px;
+  height: 350px;
+  margin: 15px 0px 15px 0px; }
+
+.iframe__item {
+  width: 100%;
+  height: 100%; }
+
 /* media y keyframe */
 /* RESPONSIVE */
