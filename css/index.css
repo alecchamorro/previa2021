@@ -353,7 +353,7 @@ div p a:hover {
 .section__404 {
   width: max-content 1920px;
   height: auto;
-  margin: 0rem 2rem 2rem 2rem; }
+  margin: 3rem 2rem 0rem 2rem; }
 
 .section__img-404 {
   width: 100%; }
@@ -362,7 +362,8 @@ div p a:hover {
   width: max-content 40px;
   height: auto;
   margin: 0rem 3rem 3rem 3rem;
-  justify-content: center; }
+  justify-content: center;
+  align-items: flex-start; }
 
 .button-404 {
   width: 100%; }
